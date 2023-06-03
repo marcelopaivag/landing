@@ -13,3 +13,12 @@ header nav {
 nav img {
     height: 80px;
 }
+
+.card-img-top {
+    border-radius: 25px;
+}
+
+.infocard div {
+    justify-content: space-between;
+    flex-flow: column;
+}
