@@ -50,3 +50,23 @@ nav img {
 .caja h3 {
     font-weight: bold;
 }
+
+footer {
+    background-color: #1b3039;
+}
+
+footer img {
+    height: 80px;
+}
+
+footer,
+footer a {
+    color: #FFFFFF;
+}
+
+@media (max-width:768px) {
+    #inputEmail4 {
+        height: 40px;
+    }
+}
+
