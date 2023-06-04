@@ -14,8 +14,8 @@ nav img {
     height: 80px;
 }
 
-.card-img-top {
-    border-radius: 25px;
+.cardimg {
+    border-radius: 25px !important
 }
 
 .infocard div {
@@ -32,15 +32,17 @@ nav img {
     display: flex;
     /* flex-direction y flex-wrap= Flex-flow */
     flex-wrap: wrap;
-    height: 400px;
+    height: 300px;
 }
 
 .caja {
     border: 3px #1b3039 solid;
     margin: 10px;
+    padding: 10px;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
+    text-align: center;
     align-items: center;
     flex: 1 1 300px;
     /*flex-grow: 1; flex-shrink: 1; flex-basis: 180px; = FLEX */
