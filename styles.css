@@ -14,45 +14,6 @@ nav img {
     height: 80px;
 }
 
-.cardimg {
-    border-radius: 25px !important
-}
-
-.infocard div {
-    justify-content: space-between;
-    flex-flow: column;
-}
-
-.titulogrid {
-    display: flex;
-    justify-content: center;
-}
-
-.cajota {
-    display: flex;
-    /* flex-direction y flex-wrap= Flex-flow */
-    flex-wrap: wrap;
-    height: 500px;
-}
-
-.caja {
-    border: 3px #1b3039 solid;
-    margin: 10px;
-    padding: 10px;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    flex: 1 1 300px;
-    /*flex-grow: 1; flex-shrink: 1; flex-basis: 180px; = FLEX */
-    /* flex-shrink: ???? para kinesiología; */
-}
-
-.caja h3 {
-    font-weight: bold;
-}
-
 footer {
     background-color: #1b3039;
 }
@@ -60,15 +21,3 @@ footer {
 footer img {
     height: 80px;
 }
-
-footer,
-footer a {
-    color: #FFFFFF;
-}
-
-@media (max-width:768px) {
-    #inputEmail4 {
-        height: 40px;
-    }
-}
-
